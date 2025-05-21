@@ -50,6 +50,7 @@ These are the initial onboarding screens.
 
 <img width="176" alt="Onboard screen-3" src="https://github.com/user-attachments/assets/0d94026f-3fef-468a-ad4a-08e3473eeefa" />
 
+
 Now, the location accessing screen is mentioned below:
 
 
