@@ -1,16 +1,52 @@
-# wakey
+# Wakey - Sunset Alarm App
 
-A new Flutter project.
+A Flutter application that helps users set alarms based on their location's sunset time.
+
+## Features
+
+- Location-based sunset time synchronization
+- Custom alarm settings
+- Local notifications
+- Dark theme UI
+- Persistent storage of alarms
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter (Channel stable, latest version)
+- Dart SDK
+- Android Studio / VS Code
+- Android SDK / Xcode (for iOS)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository
+```bash
+git clone https://github.com/YOUR_USERNAME/wakey.git
+```
+
+2. Install dependencies
+```bash
+flutter pub get
+```
+
+3. Run the app
+```bash
+flutter run
+```
+
+## Screenshots
+
+
+## Built With
+
+- Flutter
+- flutter_local_notifications
+- shared_preferences
+- geolocator
+- intl
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
