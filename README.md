@@ -42,15 +42,25 @@ flutter run
 ## Screenshots
 
 These are the initial onboarding screens.
+
+
 <img width="174" alt="Onboard screen-1" src="https://github.com/user-attachments/assets/5bd8a7ad-d470-465d-9e73-22be72486ed6" />
+
 <img width="175" alt="Onboard screen-2" src="https://github.com/user-attachments/assets/aa2e4cc1-9dd2-40b9-9606-36e819196b22" />
+
 <img width="176" alt="Onboard screen-3" src="https://github.com/user-attachments/assets/0d94026f-3fef-468a-ad4a-08e3473eeefa" />
 
 Now, the location accessing screen is mentioned below:
+
+
 ![Location](https://github.com/user-attachments/assets/89c13a22-76d6-49a1-a004-e270c0aac782)
 
+
 Finally the home page where user can set his/her personal alarm based on the schedule of day.
+
+
 <img width="176" alt="Home" src="https://github.com/user-attachments/assets/62840e97-99a9-4cce-a7ff-d55aae75e162" />
+
 
 ## Built With (Packages used)
 
