@@ -33,7 +33,21 @@ class _AlarmsScreenState extends State<AlarmsScreen> {
     await _notifications.initialize(
       const InitializationSettings(android: android, iOS: ios),
     );
-    tz.initializeTimeZones(); // required for zonedSchedule
+    tz.initializeTimeZones();
+
+    // Request notification permissions for Android 13+ and iOS
+    await _notifications
+        .resolvePlatformSpecificImplementation<
+            AndroidFlutterLocalNotificationsPlugin>()
+        ?.requestNotificationsPermission();
+    await _notifications
+        .resolvePlatformSpecificImplementation<
+            IOSFlutterLocalNotificationsPlugin>()
+        ?.requestPermissions(
+          alert: true,
+          badge: true,
+          sound: true,
+        );
   }
 
   Future<void> _loadAlarms() async {
@@ -180,9 +194,9 @@ class _AlarmsScreenState extends State<AlarmsScreen> {
                 itemBuilder: (context, index) {
                   final alarm = _alarms[index];
                   return AlarmTile(
-                      alarm: alarm,
-                      onToggle: (value) => _toggleAlarm(index, value),
-                      );
+                    alarm: alarm,
+                    onToggle: (value) => _toggleAlarm(index, value),
+                  );
                 },
               ),
             ),

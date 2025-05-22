@@ -14,7 +14,9 @@ class OnboardingPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final screenHeight = MediaQuery.of(context).size.height;
     return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
         // Image with rounded bottom corners
         ClipRRect(
@@ -25,7 +27,7 @@ class OnboardingPage extends StatelessWidget {
           child: Image.asset(
             imagePath,
             width: double.infinity,
-            height: MediaQuery.of(context).size.height * 0.45,
+            height: screenHeight * 0.32, // Use about 1/3 of screen height
             fit: BoxFit.cover,
           ),
         ),
