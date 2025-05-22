@@ -51,10 +51,12 @@ These are the initial onboarding screens.
 <img width="176" alt="Onboard screen-3" src="https://github.com/user-attachments/assets/0d94026f-3fef-468a-ad4a-08e3473eeefa" />
 
 
+
 Now, the location accessing screen is mentioned below:
 
 
-![Location](https://github.com/user-attachments/assets/89c13a22-76d6-49a1-a004-e270c0aac782)
+<img width="174" alt="Location" src="https://github.com/user-attachments/assets/8bf9a631-7224-40b8-859f-511b8cb86361" />
+
 
 
 Finally the home page where user can set his/her personal alarm based on the schedule of day.
